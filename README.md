@@ -1,0 +1,2 @@
+# ScreenCast-Prank
+ScreenCast(false)
