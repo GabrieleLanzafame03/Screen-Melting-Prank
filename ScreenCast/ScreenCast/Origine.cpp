@@ -61,7 +61,6 @@ int main(HINSTANCE Inst, HINSTANCE Prev, LPSTR Cmd, int showcmd)
 
 	if (RegisterClass(&wndClass))
 	{
-		// Sposta ogni pixel dello schermo
 		HWND hWnd = CreateWindowExA(WS_EX_TOPMOST, "PP", 0, WS_POPUP,
 									0, 0, ScreenWidth, ScreenHeight, HWND_DESKTOP, 0, Inst, 0);
 		if (hWnd)
